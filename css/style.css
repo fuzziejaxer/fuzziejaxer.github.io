@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  /* Navigation */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: #adafb3;
+    text-decoration: none;
+  }
+  
+
+  /* Hero Section */
+  #hero {
+    background-color: #f1f1f1;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  #hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  /* About Section */
+  #about {
+    padding: 40px 20px;
+  }
+
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Skills Section */
+  #skills {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+  }
+
+  #skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #skills ul {
+    list-style-type: none;
+  }
+
+  #skills li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  /* Projects Section */
+  #projects {
+    padding: 40px 20px;
+  }
+
+  #projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .project a:hover {
+    color: #adafb3;
+    text-decoration: none;
+  }
+
+  #links h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #links a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  #links a:hover {
+    color: #adafb3;
+    text-decoration: none;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #linksList {
+    list-style-type: none;
+  }
