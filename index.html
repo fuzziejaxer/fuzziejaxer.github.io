@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jack Brown</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#links">Links</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="container">
+      <h1>Jack Brown</h1>
+      <h2>Software & Web Developer</h2>
+      <a href="#contact" class="cta-button">Contact Me</a>
+
+
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p></p>
+    </div>
+  </section>
+  
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <div class="container">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Projects</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#lpgui">LuckPerms Gui</a>
+          <a href="#botg">Battle Of The Gods</a>
+        </div>
+      </div>
+      <br>
+      <div id="lpgui" class="project">
+        <br>
+        <h3><a href="https://www.spigotmc.org/resources/luckperms-gui.108831/">LuckPerms GUI</a></h3>
+        <p>LuckPerms GUI is a add-on for the user managment system for minecraft called LuckPerms, 
+          the plugin is made with Java and is built on-top of the spigot API.
+           It allows administrators to manage users ingame using a simple interface.</p>
+        <br>
+        <a href="https://github.com/fuzziejaxer/LuckPermsGUI">Source Code</a><br>
+        <a href="https://bstats.org/plugin/bukkit/LuckPerms%20GUI/18584">bStats</a><br>
+        <a href="https://github.com/fuzziejaxer/LuckPermsGUI-ReWrite/releases">Old Releases</a>
+        <img src="https://bstats.org/signatures/bukkit/LuckPerms%20GUI.svg" width="90%"/>
+
+      </div>
+      <div id="botg" class="project">
+        <h3>Battle Of The Gods MC</h3>
+        <p>Battle Of The Gods MC(botg) is a minecraft server that i am currently developing, 
+          it features a unique gamemode with a custom core plugin programmed by me.</p>
+        <img src="img/botg.png" width="800px"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Info</h2>
+
+      <p>Discord: <code>fuzziejaxer</code> or you can use my discord ID <code>583705154335932417</code></p>
+    </div>
+  </section>
+
+  <section id="links">
+    <div class="container">
+      <h2>My Links</h2>
+      <ul id="linksList">
+        <li><a href="https://github.com/fuzziejaxer">Github</a></li>
+        <li><a href="https://www.spigotmc.org/members/fuzziejaxer.1136072/">Spigot Profile</a></li>
+        <li><a href="https://bstats.org/author/fuzziejaxer">bStats Profile</a></li>
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Jack Brown</p>
+    </div>
+  </footer>
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+</body>
+</html>
